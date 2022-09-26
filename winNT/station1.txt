@@ -1,0 +1,10 @@
+create table Station1(ИмяСтанции char(20), ИдСтанции int)
+
+insert into Station1(ИмяСтанции, ИдСтанции)
+values('Станция1', 1)
+insert into Station1(ИмяСтанции, ИдСтанции)
+values('Станция2', 2)
+insert into Station1(ИмяСтанции, ИдСтанции)
+values('Станция3', 3)
+
+select ИмяСтанции, ИдСтанции from Station1

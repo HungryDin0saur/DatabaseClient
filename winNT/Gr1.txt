@@ -1,0 +1,28 @@
+create table Gr1(»м€√руппы char(20), »д√руппы int)
+
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа1', 1)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа2', 2)
+
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа3', 3)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа4', 4)
+
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа5', 5)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа6', 6)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа7', 7)
+
+select »м€√руппы, »д√руппы from Gr1
+
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа15', 15)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа16', 16)
+insert into Gr1(»м€√руппы, »д√руппы)
+values('√руппа17', 17)
+

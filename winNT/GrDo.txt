@@ -1,0 +1,20 @@
+create table GrDo(»м€√руппы char(20), »дƒомена char(20))
+
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа1', '192.168.56.1')
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа2', '192.168.56.1')
+
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа3', '192.168.56.2')
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа4', '192.168.56.2')
+
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа5', '192.168.56.3')
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа6', '192.168.56.3')
+insert into GrDo(»м€√руппы, »дƒомена)
+values('√руппа7', '192.168.56.3')
+
+select »м€√руппы, »дƒомена from GrDo

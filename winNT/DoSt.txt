@@ -1,0 +1,10 @@
+create table DoSt(ИдДомена char(20), ИдСтанции int)
+
+insert into DoSt(ИдДомена, ИдСтанции)
+values('192.168.56.1', 1)
+insert into DoSt(ИдДомена, ИдСтанции)
+values('192.168.56.2', 2)
+insert into DoSt(ИдДомена, ИдСтанции)
+values('192.168.56.3', 3)
+
+select ИдДомена, ИдСтанцииа from DoSt

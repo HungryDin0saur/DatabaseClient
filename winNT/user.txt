@@ -1,0 +1,48 @@
+create table Users(ИмяПользователя char(20), ИдПользователя int)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Андрей', 1)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Ирина', 2)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Виктор', 3)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Виталий', 4)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Василий', 5)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Елена', 6)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Герман', 7)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Леонид', 8)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Генадий', 9)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Светлана', 10)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Алексей', 11)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Александр', 12)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Евгения', 14)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Вячеслав', 15)
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Антон', 16)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Павел', 17)
+
+select ИмяПользователя, ИдПользователя from Users
+
+
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Валерий', 20)
+insert into Users(ИмяПользователя, ИдПользователя)
+values('Валерия', 21)
